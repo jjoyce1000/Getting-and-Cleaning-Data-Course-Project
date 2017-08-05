@@ -19,7 +19,7 @@ This script assumes that the various input files are already downloaded to a wor
     + ./UCI HAR Dataset/activity_labels.txt  
     + ./UCI HAR Dataset/features.txt
 
-This project includes merges and manipulates various data sets that were collected from wearable computing accelerometer measurements as described here:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+This project merges and manipulates various data sets that were collected from wearable computing accelerometer measurements as described here:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
 This script also utilizes and loads the dplyr package to aid in the manipulation and cleaning of the raw data.
 
@@ -33,7 +33,7 @@ These "path" variables were then used an input to the read.table functions that 
 This link provides the raw data for the project.  This includes several data sets including x_test.txt, y_test.txt, x_train.txt, y_train.txt, subject_test.txt, subject_train.txt, activity_labels.txt, and features.txt files.  
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
-+ ./UCI HAR Dataset/test/X_test.txt  
+    + ./UCI HAR Dataset/test/X_test.txt  
     + ./UCI HAR Dataset/test/y_test.txt  
     + ./UCI HAR Dataset/test/subject_test.txt  
     + ./UCI HAR Dataset/train/X_train.txt  
