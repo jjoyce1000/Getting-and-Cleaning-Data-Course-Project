@@ -98,3 +98,7 @@
     summarized_df <- merge_mean_std %>%
         group_by(subjects,activity) %>%
         summarize_each(funs(mean))
+    
+##  Output the summarized data set to the tidy_data_set.txt file.
+    
+    write.table(summarized_df,"./tidy_data_set.txt",row.names = FALSE)
